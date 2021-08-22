@@ -1,4 +1,7 @@
-# Sample
+## Project Name
+ Love Quotes
+## It was created by:
+Nancy Kigotho
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
