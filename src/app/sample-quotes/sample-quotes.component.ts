@@ -3,8 +3,8 @@ import {Lovequotes} from '../lovequotes'
 
 @Component({
   selector: 'app-sample-quotes',
-  templateUrl: './quotes.component.html',
-  styleUrls: ['./quotes.component.css']
+  templateUrl: './sample-quotes.component.html',
+  styleUrls: ['./sample-quotes.component.css']
 })
 export class SampleQuotesComponent implements OnInit {
 
