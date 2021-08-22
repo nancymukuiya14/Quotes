@@ -1,7 +1,7 @@
 ## Project Name
  Love Quotes
 ## Developed by:
-Nancy mukuiya Kigotho.
+Nancy Kigotho.
 ## Description.
 It is an application that allow users to create their own quotes.There is also an option where the user can give the quote a thumbs up or a thumbs down.
 
