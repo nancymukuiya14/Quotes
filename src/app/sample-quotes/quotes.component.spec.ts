@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SampleQuotesComponent } from './sample-quotes.component';
+import { SampleQuotesComponent } from './quotes.component';
 
 describe('SampleQuotesComponent', () => {
   let component: SampleQuotesComponent;
