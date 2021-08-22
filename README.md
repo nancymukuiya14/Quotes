@@ -5,7 +5,10 @@ Nancy Kigotho.
 ## Description.
 It is an application that allow users to create their own quotes.There is also an option where the user can give the quote a thumbs up or a thumbs down.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
-## 
+## Installation setup
+*Fork the repository
+*clone the project
+*
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
