@@ -44,9 +44,6 @@ export class SampleQuotesComponent implements OnInit {
     });
   }
 
-  // toggleDetails(index){
-  //   this.quotes[index].showDescr
-
   constructor() { }
 
   ngOnInit(): void {
