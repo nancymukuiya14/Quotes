@@ -14,7 +14,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Contact information
 Incase you have any question or you woul want to work with me reach me via nancykigotho14@gmail.com
 ## Live link
-
+https://nancymukuiya14.github.io/Quotes/
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
