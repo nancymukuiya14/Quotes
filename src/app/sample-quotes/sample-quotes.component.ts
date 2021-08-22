@@ -45,7 +45,7 @@ export class SampleQuotesComponent implements OnInit {
   }
 
   // toggleDetails(index){
-  //   this.quotes[index].showDescription = !this.quotes
+  //   this.quotes[index].showDescr
 
   constructor() { }
 
