@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span (click)="upVote(true)" class="fa fa-thumbs-up thumbsup"></span>
+    {{quote.numberOfLikes}}
+    <span (click)="downVote(true)" class="fa fa-thumbs-down ml-2 thumbsdown"></span>
+    {{quote.numberOfDislikes}}
+    <a (click)="deleteQuote(quote)" class="btn btn-warning">Delete</a><br><br>
+    <p>Published on {{quote.publishedDate|dateCount}} days</p>
+</body>
+</html>

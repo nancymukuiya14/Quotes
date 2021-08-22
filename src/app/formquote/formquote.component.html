@@ -1,0 +1,31 @@
+<div class="container-fluid">
+    <h2 class="text-center">Create your own love Quote!</h2>
+    <hr>
+    <form (ngSubmit)='submitquote()' #quoteForm ='ngForm'>
+        <div class="myform">
+            <div class="form-group">
+                <label for="name">Your name</label>
+                <input type="text" class="form-control" id="author" name="author" [(ngModel)] = "newQuote.author" required name="author" #author='ngModel' >
+                <div [hidden]="author.valid || author.pristine" class="alert alert-info">
+                    <p>Your name is required</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name">Author</label>
+                <input type="text" class="form-control" id="author" name="author" [(ngModel)] = "newQuote.author" required name="author" #author='ngModel'>
+                <div [hidden]="author.valid || author.pristine" class="alert alert-info">
+                    <p>Author is required</p>
+                </div>
+            </div>
+            <div class="form-group">
+
+                <label for="Quote">Quote</label>
+                <textarea class="form-control" id="lovequote" rows="4" name="lovequote" [(ngModel)] = "newQuote.lovequote" required name="lovequotes" #lovequotes='ngModel'></textarea>
+                <div [hidden]="lovequotes.valid || lovequotes.pristine" class="alert alert-info">
+                    <p>Quote is required</p>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-warning">quote</button>
+        </div>
+    </form>
+</div>

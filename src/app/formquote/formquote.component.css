@@ -1,0 +1,14 @@
+.myform {
+    left: 300px;
+}
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    color: blue;
+    left: 300px;
+    font-family: 'Trochut', cursive;
+}
+* {
+    overflow: hidden;
+}

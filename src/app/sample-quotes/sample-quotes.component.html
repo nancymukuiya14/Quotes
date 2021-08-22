@@ -1,0 +1,54 @@
+<div class="header">
+    <nav class="navbar navbar-light bg">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Love <span> Qoutes</span></span>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="home">
+            <div class="vector">
+                <img src="./assets/haa2.png" height="605">
+            </div>
+            <div class="quote-box">
+                <h2>i fell inlove When i saw you,<br>and you smiled because you knew<br><span>~William Shakespear</span>
+                </h2>
+                <button class="btn btn-warning">SEE MORE</button>
+            </div>
+        </div>
+    </div>
+</div>
+<h1>Welcome to my Love quotes</h1>
+<div class="love">
+    <div class="row">
+        <div class="col-md-4" *ngFor='let quote of quotes;let i = index'>
+            <div class="card mx-3 mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./assets/moon2.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{quote.author}}</h5>
+                            <p class="card-text">{{quote.lovequote}}</p>
+                            <!-- <button (click)='toggleDetails(i)'>Toggle Details</button> -->
+                            <app-quotedetail [quote]="quote" (deleteQuoteevent)="deletequote($event,i)" (vote) = 'addVote($event,i)' (dVote) = 'adddVote($event, i)'>
+                            </app-quotedetail>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mine">
+    <div class="row">
+        <div class="col-md-6 mx-5">
+            <app-formquote>(addQuotes)="addNewQuote($event)" </app-formquote>
+        </div>
+    </div>
+</div>
+<div class="footer">
+                <p>Copyright © 2021 All rights reserved</p>
+
+
+</div>

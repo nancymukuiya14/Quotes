@@ -1,0 +1,53 @@
+* {
+    overflow: hidden;
+    font-family: 'Trochut', cursive;
+}
+.navbar-brand {
+    color: white;
+    font-size: 2rem;
+}
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Trochut', cursive;
+    color: black
+
+}
+.home {
+    display: flex;
+
+}
+.quote-box {
+    position: relative;
+    top: 200px;
+    right: -100px;
+    color: white;
+}
+.header {
+    background-color:black
+}
+.vector {
+    position: relative;
+    bottom:100px ;
+}
+span {
+    color: yellow;
+}
+.btn {
+    color : black;
+    background-color: yellow;
+}
+.mine {
+    background-color: yellow;
+}
+.love {
+    overflow: hidden;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/* * {
+    border: 3px solid blue;
+} */
