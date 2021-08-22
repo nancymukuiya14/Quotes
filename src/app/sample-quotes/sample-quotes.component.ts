@@ -10,7 +10,7 @@ export class SampleQuotesComponent implements OnInit {
 
   quotes: Lovequotes[]= [
     new Lovequotes(1, 'I dont beleive in magic,the young boy said.The old man smiled,You will when you see her', '~Atticus',new Date('2021,8,21'),0,0),
-    new Lovequotes(3, 'If i were a moon, i would want you to by my night',  'Alexandra Vasiliu',new Date('2021,8,16'),0,0),
+    new Lovequotes(3, 'If i were a moon, i would want you to by my night',  '~Alexandra Vasiliu',new Date('2021,8,16'),0,0),
     new Lovequotes(4, 
       'There is nothing prettier in the whole wide world like a girl in love with every breath she takes','Cate',new Date('2021,8,16'),0,0)
   
